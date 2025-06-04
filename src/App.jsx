@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import HomePage from './pages/HomePage';
+import WalletPage from './pages/WalletPage';
 import NotFound from './pages/NotFound'
 
 function App() {
