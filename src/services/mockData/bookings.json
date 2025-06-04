@@ -1,0 +1,247 @@
+[
+  {
+    "bookingId": "booking_001",
+    "type": "flights",
+    "provider": "Air France",
+    "details": {
+      "from": "New York (JFK)",
+      "to": "Paris (CDG)",
+      "departureTime": "18:30",
+      "arrivalTime": "07:45+1",
+      "flightNumber": "AF007",
+      "duration": "7h 15m",
+      "aircraft": "Airbus A350",
+      "class": "Economy"
+    },
+    "price": 650,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234567",
+    "status": "confirmed",
+    "bookingDate": "2024-11-01",
+    "passengerCount": 2
+  },
+  {
+    "bookingId": "booking_002",
+    "type": "hotels",
+    "provider": "Hotel Marquis",
+    "details": {
+      "name": "Hotel Marquis Paris",
+      "address": "8th Arrondissement, Paris",
+      "checkIn": "2024-12-15",
+      "checkOut": "2024-12-20",
+      "roomType": "Deluxe Suite",
+      "guests": 2,
+      "amenities": ["WiFi", "Breakfast", "Spa", "Concierge"]
+    },
+    "price": 180,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234568",
+    "status": "confirmed",
+    "bookingDate": "2024-11-01",
+    "nights": 5
+  },
+  {
+    "bookingId": "booking_003",
+    "type": "cars",
+    "provider": "Europcar",
+    "details": {
+      "vehicleType": "Economy Car",
+      "model": "Peugeot 208",
+      "pickupLocation": "Paris CDG Airport",
+      "dropoffLocation": "Paris CDG Airport",
+      "pickupDate": "2024-12-15",
+      "dropoffDate": "2024-12-20",
+      "features": ["GPS", "Air Conditioning", "Bluetooth"]
+    },
+    "price": 45,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234569",
+    "status": "confirmed",
+    "bookingDate": "2024-11-01",
+    "days": 5
+  },
+  {
+    "bookingId": "booking_004",
+    "type": "flights",
+    "provider": "Japan Airlines",
+    "details": {
+      "from": "New York (JFK)",
+      "to": "Tokyo (NRT)",
+      "departureTime": "13:45",
+      "arrivalTime": "17:30+1",
+      "flightNumber": "JL004",
+      "duration": "14h 45m",
+      "aircraft": "Boeing 787",
+      "class": "Business"
+    },
+    "price": 2400,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234570",
+    "status": "completed",
+    "bookingDate": "2024-10-15",
+    "passengerCount": 1
+  },
+  {
+    "bookingId": "booking_005",
+    "type": "hotels",
+    "provider": "Tokyo Imperial Hotel",
+    "details": {
+      "name": "Imperial Hotel Tokyo",
+      "address": "Chiyoda, Tokyo",
+      "checkIn": "2024-11-20",
+      "checkOut": "2024-11-25",
+      "roomType": "Executive Room",
+      "guests": 1,
+      "amenities": ["WiFi", "Business Center", "Fitness", "Restaurant"]
+    },
+    "price": 320,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234571",
+    "status": "completed",
+    "bookingDate": "2024-10-15",
+    "nights": 5
+  },
+  {
+    "bookingId": "booking_006",
+    "type": "hotels",
+    "provider": "Bali Resort & Spa",
+    "details": {
+      "name": "Ubud Luxury Resort",
+      "address": "Ubud, Bali",
+      "checkIn": "2025-01-10",
+      "checkOut": "2025-01-20",
+      "roomType": "Family Villa",
+      "guests": 4,
+      "amenities": ["Pool", "Spa", "Kids Club", "Beach Access", "Restaurant"]
+    },
+    "price": 275,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234572",
+    "status": "pending",
+    "bookingDate": "2024-11-15",
+    "nights": 10
+  },
+  {
+    "bookingId": "booking_007",
+    "type": "flights",
+    "provider": "Delta Airlines",
+    "details": {
+      "from": "Boston (BOS)",
+      "to": "New York (LGA)",
+      "departureTime": "08:15",
+      "arrivalTime": "09:30",
+      "flightNumber": "DL1234",
+      "duration": "1h 15m",
+      "aircraft": "Boeing 737",
+      "class": "Economy"
+    },
+    "price": 180,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234573",
+    "status": "completed",
+    "bookingDate": "2024-10-01",
+    "passengerCount": 1
+  },
+  {
+    "bookingId": "booking_008",
+    "type": "hotels",
+    "provider": "Manhattan Plaza Hotel",
+    "details": {
+      "name": "Times Square Plaza",
+      "address": "Midtown Manhattan, New York",
+      "checkIn": "2024-10-15",
+      "checkOut": "2024-10-18",
+      "roomType": "Standard Room",
+      "guests": 1,
+      "amenities": ["WiFi", "Gym", "Business Center"]
+    },
+    "price": 220,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234574",
+    "status": "completed",
+    "bookingDate": "2024-10-01",
+    "nights": 3
+  },
+  {
+    "bookingId": "booking_009",
+    "type": "flights",
+    "provider": "Qantas",
+    "details": {
+      "from": "Los Angeles (LAX)",
+      "to": "Sydney (SYD)",
+      "departureTime": "22:50",
+      "arrivalTime": "06:30+2",
+      "flightNumber": "QF012",
+      "duration": "15h 40m",
+      "aircraft": "Airbus A380",
+      "class": "Premium Economy"
+    },
+    "price": 1650,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234575",
+    "status": "completed",
+    "bookingDate": "2024-08-20",
+    "passengerCount": 1
+  },
+  {
+    "bookingId": "booking_010",
+    "type": "hotels",
+    "provider": "La Mamounia",
+    "details": {
+      "name": "La Mamounia Palace",
+      "address": "Medina, Marrakech",
+      "checkIn": "2024-08-05",
+      "checkOut": "2024-08-15",
+      "roomType": "Riad Suite",
+      "guests": 2,
+      "amenities": ["Spa", "Pool", "Restaurant", "Garden", "Traditional Hammam"]
+    },
+    "price": 280,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234576",
+    "status": "completed",
+    "bookingDate": "2024-07-10",
+    "nights": 10
+  },
+  {
+    "bookingId": "booking_011",
+    "type": "flights",
+    "provider": "Thai Airways",
+    "details": {
+      "from": "San Francisco (SFO)",
+      "to": "Bangkok (BKK)",
+      "departureTime": "01:30",
+      "arrivalTime": "06:45+2",
+      "flightNumber": "TG001",
+      "duration": "17h 15m",
+      "aircraft": "Boeing 777",
+      "class": "Economy"
+    },
+    "price": 890,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234577",
+    "status": "completed",
+    "bookingDate": "2024-06-15",
+    "passengerCount": 1
+  },
+  {
+    "bookingId": "booking_012",
+    "type": "hotels",
+    "provider": "Anantara Resort",
+    "details": {
+      "name": "Anantara Phuket Resort",
+      "address": "Phuket Island, Thailand",
+      "checkIn": "2024-07-15",
+      "checkOut": "2024-07-25",
+      "roomType": "Ocean View Villa",
+      "guests": 1,
+      "amenities": ["Private Beach", "Spa", "Infinity Pool", "Water Sports"]
+    },
+    "price": 195,
+    "currency": "USD",
+    "confirmationNumber": "WN1699234578",
+    "status": "completed",
+    "bookingDate": "2024-06-15",
+    "nights": 10
+  }
+]

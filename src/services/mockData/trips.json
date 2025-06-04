@@ -1,0 +1,183 @@
+[
+  {
+    "tripId": "trip_001",
+    "name": "European Adventure",
+    "startDate": "2024-12-15",
+    "endDate": "2024-12-28",
+    "travelers": ["user_001", "user_002"],
+    "bookings": ["booking_001", "booking_002", "booking_003"],
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2024-12-15",
+        "activities": ["Arrive in Paris", "Check into hotel", "Evening Seine cruise"]
+      },
+      {
+        "day": 2,
+        "date": "2024-12-16",
+        "activities": ["Louvre Museum", "Lunch at Café de Flore", "Eiffel Tower visit"]
+      }
+    ],
+    "expenses": ["expense_001", "expense_002"],
+    "status": "upcoming",
+    "destination": "Paris, France",
+    "totalBudget": 4500,
+    "description": "A romantic getaway exploring the best of Paris and Rome"
+  },
+  {
+    "tripId": "trip_002",
+    "name": "Tokyo Business Trip",
+    "startDate": "2024-11-20",
+    "endDate": "2024-11-25",
+    "travelers": ["user_001"],
+    "bookings": ["booking_004", "booking_005"],
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2024-11-20",
+        "activities": ["Arrive at Narita", "Business meeting at Tokyo Station", "Welcome dinner"]
+      }
+    ],
+    "expenses": ["expense_003"],
+    "status": "completed",
+    "destination": "Tokyo, Japan",
+    "totalBudget": 3200,
+    "description": "Corporate meetings and tech conference attendance"
+  },
+  {
+    "tripId": "trip_003",
+    "name": "Bali Family Vacation",
+    "startDate": "2025-01-10",
+    "endDate": "2025-01-20",
+    "travelers": ["user_001", "user_002", "user_003", "user_004"],
+    "bookings": ["booking_006"],
+    "itinerary": [],
+    "expenses": [],
+    "status": "planning",
+    "destination": "Bali, Indonesia",
+    "totalBudget": 6800,
+    "description": "Family holiday with beach activities and cultural exploration"
+  },
+  {
+    "tripId": "trip_004",
+    "name": "New York City Weekend",
+    "startDate": "2024-10-15",
+    "endDate": "2024-10-18",
+    "travelers": ["user_001"],
+    "bookings": ["booking_007", "booking_008"],
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2024-10-15",
+        "activities": ["Central Park walk", "Metropolitan Museum", "Broadway show"]
+      }
+    ],
+    "expenses": ["expense_004", "expense_005"],
+    "status": "completed",
+    "destination": "New York, USA",
+    "totalBudget": 1800,
+    "description": "Quick weekend getaway to experience NYC culture"
+  },
+  {
+    "tripId": "trip_005",
+    "name": "Iceland Northern Lights",
+    "startDate": "2025-02-05",
+    "endDate": "2025-02-12",
+    "travelers": ["user_001", "user_002"],
+    "bookings": [],
+    "itinerary": [],
+    "expenses": [],
+    "status": "planning",
+    "destination": "Reykjavik, Iceland",
+    "totalBudget": 3500,
+    "description": "Winter adventure to see the aurora borealis and explore ice caves"
+  },
+  {
+    "tripId": "trip_006",
+    "name": "Australian Outback Explorer",
+    "startDate": "2024-09-10",
+    "endDate": "2024-09-25",
+    "travelers": ["user_001"],
+    "bookings": ["booking_009"],
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2024-09-10",
+        "activities": ["Arrive in Sydney", "Opera House tour", "Harbour Bridge walk"]
+      }
+    ],
+    "expenses": ["expense_006"],
+    "status": "completed",
+    "destination": "Sydney, Australia",
+    "totalBudget": 4200,
+    "description": "Solo adventure through Australia's iconic landmarks and wilderness"
+  },
+  {
+    "tripId": "trip_007",
+    "name": "Swiss Alps Ski Trip",
+    "startDate": "2025-03-01",
+    "endDate": "2025-03-08",
+    "travelers": ["user_001", "user_002", "user_003"],
+    "bookings": [],
+    "itinerary": [],
+    "expenses": [],
+    "status": "upcoming",
+    "destination": "Zermatt, Switzerland",
+    "totalBudget": 5200,
+    "description": "Group skiing vacation in the heart of the Swiss Alps"
+  },
+  {
+    "tripId": "trip_008",
+    "name": "Morocco Cultural Journey",
+    "startDate": "2024-08-05",
+    "endDate": "2024-08-15",
+    "travelers": ["user_001", "user_002"],
+    "bookings": ["booking_010"],
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2024-08-05",
+        "activities": ["Arrive in Marrakech", "Medina exploration", "Traditional dinner"]
+      }
+    ],
+    "expenses": ["expense_007", "expense_008"],
+    "status": "completed",
+    "destination": "Marrakech, Morocco",
+    "totalBudget": 2800,
+    "description": "Cultural immersion in Morocco's vibrant cities and desert landscapes"
+  },
+  {
+    "tripId": "trip_009",
+    "name": "California Wine Country",
+    "startDate": "2025-04-15",
+    "endDate": "2025-04-20",
+    "travelers": ["user_001", "user_002"],
+    "bookings": [],
+    "itinerary": [],
+    "expenses": [],
+    "status": "upcoming",
+    "destination": "Napa Valley, USA",
+    "totalBudget": 2500,
+    "description": "Wine tasting tour through California's premier vineyards"
+  },
+  {
+    "tripId": "trip_010",
+    "name": "Thailand Island Hopping",
+    "startDate": "2024-07-10",
+    "endDate": "2024-07-25",
+    "travelers": ["user_001"],
+    "bookings": ["booking_011", "booking_012"],
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2024-07-10",
+        "activities": ["Arrive in Bangkok", "Temple visits", "Street food tour"]
+      }
+    ],
+    "expenses": ["expense_009", "expense_010"],
+    "status": "completed",
+    "destination": "Bangkok, Thailand",
+    "totalBudget": 3100,
+    "description": "Tropical paradise adventure across Thailand's beautiful islands"
+  }
+]
