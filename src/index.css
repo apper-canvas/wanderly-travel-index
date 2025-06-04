@@ -8,10 +8,8 @@
     font-family: 'Inter', system-ui, sans-serif;
     scroll-behavior: smooth;
   }
-  
-  body {
-    @apply text-gray-900 antialiased;
-line-height: 1.6;
+body {
+    @apply text-gray-900 antialiased leading-relaxed;
   }
   
   * {
