@@ -11,11 +11,11 @@
   
   body {
     @apply text-gray-900 antialiased;
-    line-height: 1.6;
+line-height: 1.6;
   }
   
   * {
-    @apply border-border;
+    @apply border-gray-200;
   }
 }
 
